@@ -12,9 +12,8 @@ Work hours calculator helps employees accurately calculate the number of hours w
 3. Activate the [Work Hours Calculator](https://www.calculator.io/work-hours-calculator/ "Work Hours Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_work_hours_calculator]` to your page or post and configure default mortgage parameters.
-* If you are using widgets, just add the Work Hours Calculator to the sidebar through the `Appearance -> Widgets -> Work Hours Calculator` menu in WordPress.
-* Add the following code: `<?php display_ci_work_hours_calculator(); ?>` to your template where you would like the Work Hours Calculator to appear.
+* Add the shortcode `[ci_work_hours_calculator]` to your page, post or sidebar.
+* Or add the following code: `<?php display_ci_work_hours_calculator(); ?>` to your template where you would like the Work Hours Calculator to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/
