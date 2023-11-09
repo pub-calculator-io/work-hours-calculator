@@ -13,6 +13,8 @@ Work hours calculator helps employees accurately calculate the number of hours w
 
 Work hours calculator helps employees accurately calculate the number of hours worked each week with settings to account for breaks, hourly rounding, and military time. 
 
+[Work Hours Calculator Homepage](https://www.calculator.io/work-hours-calculator/ "Work Hours Calculator Homepage")
+
 __Shortcode__
 
 Use the Work Hours Calculator shortcode:
