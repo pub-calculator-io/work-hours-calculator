@@ -1,13 +1,13 @@
 === Work Hours Calculator by Calculator.iO ===
 Contributors: calculatorio
-Tags: 
+Tags: work hours calculator, weekly hours calculation, break time adjustments, hourly rounding, military time format, time card accuracy, clock format settings, overtime calculation, time entry format, labor law compliance 
 Requires at least: 5.0
 Tested up to: 6.4.0
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Work hours calculator helps employees accurately calculate the number of hours worked each week with settings to account for breaks, hourly rounding, and military time. 
+Work hours calculator helps employees accurately calculate the number of hours worked each week with settings to account for breaks, hourly rounding, and military time.
 
 [https://www.calculator.io/work-hours-calculator/](https://www.calculator.io/work-hours-calculator/)
 
