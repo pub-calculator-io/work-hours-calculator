@@ -1,4 +1,4 @@
-# Work Hours Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Work Hours Calculator Widget for WordPress
 
 Work hours calculator helps employees accurately calculate the number of hours worked each week with settings to account for breaks, hourly rounding, and military time.
 
