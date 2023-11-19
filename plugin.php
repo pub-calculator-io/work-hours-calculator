@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Work Hours Calculator by www.calculator.io
+Plugin Name: CI Work hours calculator
 Plugin URI: https://www.calculator.io/work-hours-calculator/
 Description: Work hours calculator helps employees accurately calculate the number of hours worked each week with settings to account for breaks, hourly rounding, and military time.
 Version: 1.0.0

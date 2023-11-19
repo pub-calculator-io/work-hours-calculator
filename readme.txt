@@ -1,4 +1,4 @@
-=== Work Hours Calculator by www.calculator.io ===
+=== CI Work hours calculator ===
 Contributors: calculatorio
 Tags: work hours calculator, weekly hours calculation, break time adjustments, hourly rounding, military time format, time card accuracy, clock format settings, overtime calculation, time entry format, labor law compliance 
 Requires at least: 5.0
