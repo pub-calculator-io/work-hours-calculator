@@ -1,6 +1,6 @@
 === CI Work hours calculator ===
 Contributors: calculatorio
-Tags: work hours calculator, weekly hours calculation, break time adjustments, hourly rounding, military time format, time card accuracy, clock format settings, overtime calculation, time entry format, labor law compliance 
+Tags: work hours calculator, weekly hours calculation, break time adjustments, hourly rounding, military time format, time card accuracy, clock format settings, overtime calculation, time entry format, labor law compliance
 Requires at least: 5.0
 Tested up to: 6.4.0
 Stable tag: 1.0.0
@@ -24,7 +24,6 @@ Add the following code to your template where you would like the Work Hours Calc
 == Screenshots ==
 
 1. The Work Hours Calculator Input Form.
-2. The Work Hours Calculator Calculation Results.
 
 == Installation ==
 

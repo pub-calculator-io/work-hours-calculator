@@ -3,7 +3,6 @@
 Work hours calculator helps employees accurately calculate the number of hours worked each week with settings to account for breaks, hourly rounding, and military time.
 
 ![Work Hours Calculator Input Form](/assets/images/screenshot-1.png "Work Hours Calculator Input Form")
-![Work Hours Calculator Calculation Results](/assets/images/screenshot-2.png "Work Hours Calculator Calculation Results")
 
 ## Installation
 

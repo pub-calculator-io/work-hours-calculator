@@ -47,7 +47,7 @@
                 				<div class="input-field row">
                 					<input type="text" class="input-field__input "  placeholder="hh:mm" data-inputmask="'mask': '99:99', 'placeholder': 'hh:mm'" value="17:30" id="end_time_monday" />
                 				</div>
-                			</label>			<label class="input col   ">
+                			</label>			<label class="input col time-calculator,hours-calculator,time-duration-calculator,hours-and-minutes-calculator,time-to-decimal-calculator  ">
                 				<p class="input__title">Break</p>
                 				<div class="input-field row">
                 					<input type="text" class="input-field__input" placeholder=""  id="break_monday" value="60"  />
@@ -78,7 +78,7 @@
                 				<div class="input-field row">
                 					<input type="text" class="input-field__input "  placeholder="hh:mm" data-inputmask="'mask': '99:99', 'placeholder': 'hh:mm'" value="18:30" id="end_time_tuesday" />
                 				</div>
-                			</label>			<label class="input col   ">
+                			</label>			<label class="input col time-calculator,hours-calculator,time-duration-calculator,hours-and-minutes-calculator,time-to-decimal-calculator  ">
                 				<p class="input__title">Break</p>
                 				<div class="input-field row">
                 					<input type="text" class="input-field__input" placeholder=""  id="break_tuesday" value="60"  />
@@ -109,7 +109,7 @@
                 				<div class="input-field row">
                 					<input type="text" class="input-field__input "  placeholder="hh:mm" data-inputmask="'mask': '99:99', 'placeholder': 'hh:mm'" value="18:30" id="end_time_wednesday" />
                 				</div>
-                			</label>			<label class="input col   ">
+                			</label>			<label class="input col time-calculator,hours-calculator,time-duration-calculator,hours-and-minutes-calculator,time-to-decimal-calculator  ">
                 				<p class="input__title">Break</p>
                 				<div class="input-field row">
                 					<input type="text" class="input-field__input" placeholder=""  id="break_wednesday" value="60"  />
@@ -140,7 +140,7 @@
                 				<div class="input-field row">
                 					<input type="text" class="input-field__input "  placeholder="hh:mm" data-inputmask="'mask': '99:99', 'placeholder': 'hh:mm'" value="18:00" id="end_time_thursday" />
                 				</div>
-                			</label>			<label class="input col   ">
+                			</label>			<label class="input col time-calculator,hours-calculator,time-duration-calculator,hours-and-minutes-calculator,time-to-decimal-calculator  ">
                 				<p class="input__title">Break</p>
                 				<div class="input-field row">
                 					<input type="text" class="input-field__input" placeholder=""  id="break_thursday" value="60"  />
@@ -171,7 +171,7 @@
                 				<div class="input-field row">
                 					<input type="text" class="input-field__input "  placeholder="hh:mm" data-inputmask="'mask': '99:99', 'placeholder': 'hh:mm'" value="17:30" id="end_time_friday" />
                 				</div>
-                			</label>			<label class="input col   ">
+                			</label>			<label class="input col time-calculator,hours-calculator,time-duration-calculator,hours-and-minutes-calculator,time-to-decimal-calculator  ">
                 				<p class="input__title">Break</p>
                 				<div class="input-field row">
                 					<input type="text" class="input-field__input" placeholder=""  id="break_friday" value="60"  />
@@ -202,7 +202,7 @@
                 				<div class="input-field row">
                 					<input type="text" class="input-field__input "  placeholder="hh:mm" data-inputmask="'mask': '99:99', 'placeholder': 'hh:mm'" value="12:30" id="end_time_saturday" />
                 				</div>
-                			</label>			<label class="input col   ">
+                			</label>			<label class="input col time-calculator,hours-calculator,time-duration-calculator,hours-and-minutes-calculator,time-to-decimal-calculator  ">
                 				<p class="input__title">Break</p>
                 				<div class="input-field row">
                 					<input type="text" class="input-field__input" placeholder=""  id="break_saturday" value="30"  />
@@ -233,7 +233,7 @@
                 				<div class="input-field row">
                 					<input type="text" class="input-field__input "  placeholder="hh:mm" data-inputmask="'mask': '99:99', 'placeholder': 'hh:mm'" value="" id="end_time_sunday" />
                 				</div>
-                			</label>			<label class="input col   ">
+                			</label>			<label class="input col time-calculator,hours-calculator,time-duration-calculator,hours-and-minutes-calculator,time-to-decimal-calculator  ">
                 				<p class="input__title">Break</p>
                 				<div class="input-field row">
                 					<input type="text" class="input-field__input" placeholder=""  id="break_sunday" value=""  />
@@ -254,7 +254,7 @@
                 <div class="calculator-content calculator-content--gray calculator-content--footer calculator-content--small row  " >
                 
                 
-                		<button class="system-switcher system-switcher--format" onclick="toggleSystem(this)">
+                		<button class="system-switcher system-switcher--format" onclick="toggleSystem(this)" aria-label="Switch System">
                 			<div class="system-switcher__circle"></div>
                 			<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                 	<path d="M7.84254 5.61418C7.84254 4.72269 8.56524 4 9.45673 4C10.7869 4 11.5462 5.51856 10.7481 6.58269L7.84254 10.4567H11.4745M3 5.29135L4.08967 4.41961C4.30105 4.2505 4.61418 4.401 4.61418 4.6717V10.4567" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -275,13 +275,15 @@
                 		</script>
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
                 
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>
@@ -296,8 +298,7 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col">
 	<div class="result-table__wrapper">
 		<table class="result-table">
@@ -375,11 +376,11 @@
 			</tr>
 			</tbody>
 		</table>
-		<table class="result-table result-table--work-hours-calculator">
+		<table class="result-table result-table--work-hours-calculator animate">
 			<thead>
 			<tr>
 				<th></th>
-				<th>REG</th>
+				<th>REGULAR</th>
 				<td id="reg">40:00</td>
 				<td class="short" id="reg-decimal">40.00</td>
 			</tr>
@@ -387,7 +388,7 @@
 			<tbody>
 			<tr>
 				<th></th>
-				<th>OT</th>
+				<th>OVERTIME</th>
 				<td id="ot">03:00</td>
 				<td class="short" id="ot-decimal">3.00</td>
 			</tr>
